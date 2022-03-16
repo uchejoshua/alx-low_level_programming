@@ -17,9 +17,9 @@ void jack_bauer(void)
 	{
 		while (minute < 60)
 		{
-            /* gives the first number */
+			/* gives the first number */
 			_putchar('0' + (hour / 10));
-            /* gives the first number */
+			/* gives the first number */
 			_putchar('0' + (hour % 10));
 			_putchar(':');
 			_putchar('0' + (minute / 10));
